@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+}
+#twittersection {
+	background-color: #6e6e6e;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	overflow-y: scroll;
+	height: 100%;
+opacity: 1.0;
+
+}
+.tweetclass {
+	padding: 10px 20px;
+	opacity: .8;
+}
+.tweetclass:hover {
+	opacity: 1.0;
+}
+.user {
+	font-weight: 600;
+	float: right;
+	color: #c1c1c1;
+	margin-bottom: 15px;
+}
+hr {
+    height: 1px;
+    background-color: white;
+    border: 0;
+    width: 90%;
+    opacity: .5;
+    margin: 20px auto 0 auto;
+}
+                            

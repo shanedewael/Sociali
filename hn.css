@@ -1,0 +1,78 @@
+#HNembed {
+  position: fixed;
+  clear: both;
+  width: 30%;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #335500;
+  background-color: #6e6e6e;
+  z-index: 999999;
+  right: -25%;
+  top: 0;
+  opacity: 1.0;
+}
+#HNsite {
+  width: 100%;
+  height: 178px;
+  border: none;
+}
+#HNheader {
+  background-color: #6e6e6e !important;
+  color: #bbb !important;
+  cursor: pointer !important;
+  margin: 0;
+  font-size: 30px;
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+#HNheader #HNtitleHover {
+	display: none !important;
+}
+#HNheader:hover {
+	background-color: #9a9a9a !important;
+}
+#HNheader:hover #HNtitleHover {
+	display: block !important;
+  color: #aaa !important;
+}
+#HNheader:hover #HNtitleNormal {
+	display: none !important;
+}
+#HNtab {
+  background-image: url('http://shanedewael.com/Sociali/logo.jpg');
+  background-size: contain;
+  background-color: #d8d8d8;
+  clear: both;
+  color: #222222;
+  cursor: pointer;
+  font-family: Verdana;
+  font-size: 10pt;
+  font-weight: bold;
+  box-shadow: 0 0 2px rgba(0,0,0,0.6);
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-indent: -100000px;
+  top: 10%;
+  width: 30px;
+  height: 150px;
+  z-index: 999999;
+}
+#HNtab:hover {
+  
+}
+#HNupdate {
+  color: yellow;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#HNtitle {
+  width: 100%;
+}
+.iin {
+  font-weight: 500;
+}

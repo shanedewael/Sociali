@@ -1,0 +1,16 @@
+{
+   "manifest_version": 2,
+   "background": {"scripts": ["xhr_handler.js"]},
+   "content_scripts": [ {
+      "css": [ "hn.css" ],
+      "js": [ "jquery.js", "script.js"],
+      "matches": [ "<all_urls>" ]
+   } ],
+   "icons": { "48": "icon-48.png",
+             "128": "icon-128.png" },
+   "description": "Collects information from news sites and articles to deliver an end collection of social media.",
+   "name": "Sociali",
+   "permissions": [ "tabs" ],
+   "version": "1.0"
+}
+
